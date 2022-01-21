@@ -1,0 +1,240 @@
+
+/* Universel Content */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: poppins;
+    font-weight: 400;
+    color: rgb(63, 62, 62);
+    background-color: whitesmoke;
+}
+
+/* Reuseable Content */
+
+h1 {
+    font-size: 45px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 25px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+.btn {
+    background-color: rgba(220, 20, 60, 0.849);
+    color: whitesmoke;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    border: 0;
+    border-radius: 2px;
+    outline: 0;
+    padding: 10px 25px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: crimson;
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* **************************** */
+        /* Main content */
+/* **************************** */
+
+/* Header section design */
+
+.header {
+    width: 100%;
+    min-height: 700px;
+    background-image: url(../assets/img/header-bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px;
+}
+
+.header-text {
+    width: 50%;
+    padding-left: 200px;
+    margin-top: 150px;
+    margin-right: 80px;
+}
+
+.header-text h1 {
+    color:crimson;
+}
+
+.header-text p {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.header-text .btn {
+    text-transform: uppercase;
+}
+
+
+.header-image {
+    width: 50%;
+}
+
+.header-image img {
+    width: 500px;
+}
+
+/* Boigraphy section design */
+
+
+.bio {
+    width: 100%;
+    min-height: 700px;
+    background-image: url(../assets/img/biography-bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px;
+}
+
+.bio-image {
+    width: 50%;
+    padding-left: 200px;
+}
+
+.bio-image img {
+    width: 500px;
+}
+
+.bio-text {
+    width: 50%;
+    margin-left: 200px;
+    margin-top: 160px;
+}
+
+.bio-text p {
+    margin: 40px 0;
+}
+
+/* Work section design */
+
+.work {
+    width: 100%;
+    min-height: 500px;
+    background-image: url(../assets/img/latest-work-bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px;
+}
+
+.work h2 {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.portfolio {
+    justify-content: space-between;
+    margin: 0 50px;
+}
+
+.item {
+    width: 30%;
+    padding: 30px;
+    margin: 30px 30;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.item img {
+    width: 350px;
+}
+
+.item:hover {
+    box-shadow: 5px 5px 40px rgb(105, 105, 105);
+}
+
+/* Review section design */
+
+.review {
+    width:100%;
+    min-height: 500px;
+    background-image: url(../assets/img/footer-bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+    text-align: center;
+}
+
+.review h2 {
+    text-transform: capitalize;
+    margin: 50px 0;
+}
+
+.review > h5 {
+    font-weight: 600px;
+}
+
+.review > h6 {
+    font-size: 15px;
+    font-weight: 300px;
+    color: rgba(87, 87, 87, 0.918);
+    margin: 5px 0;
+}
+
+.review > p {
+    margin: 30px 0;
+}
+
+.contact {
+    width: 50%;
+    height: 150px;
+    margin: 90px auto;
+    background-color:crimson;
+    border-radius: 5px;
+}
+
+.contact > h6 {
+    color: rgb(231, 231, 231);
+    padding-top: 30px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.contact > h5 {
+    color: rgb(233, 233, 233);
+    margin-top: 10px;
+    font-size: 22px;
+}
+
+.copyright {
+    text-align: center;
+    text-transform: capitalize;
+    color: rgb(29, 29, 29);
+    padding: 30px 0;
+    background-color: rgba(228, 228, 228, 0.664);
+}
